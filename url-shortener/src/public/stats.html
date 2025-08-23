@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Stats</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo">minl.ink</h1>
+            <h1>URL Statistics</h1>
+            <p>Details about your shortened URL</p>
+        </header>
+
+        <main>
+            <div class="stats-container">
+                <div class="stat-item">
+                    <strong>Original URL:</strong>
+                    <a href="#" id="originalUrl" target="_blank">Loading...</a>
+                </div>
+                <div class="stat-item">
+                    <strong>Shortened URL:</strong>
+                    <a href="#" id="shortUrl" target="_blank">Loading...</a>
+                </div>
+                <div class="stat-item">
+                    <strong>Clicks:</strong>
+                    <span id="clicks">Loading...</span>
+                </div>
+                <div class="stat-item">
+                    <strong>Created At:</strong>
+                    <span id="createdAt">Loading...</span>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <a href="/" class="back-link">← Back to Home</a>
+        </footer>
+    </div>
+    <script src="/stats.js"></script>
+</body>
+</html>

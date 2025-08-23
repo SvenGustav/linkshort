@@ -1,0 +1,15 @@
+<svg viewBox="5.312 9.472 21.248 15.872" xmlns="http://www.w3.org/2000/svg" style="max-height: 500px" width="21.248" height="15.872">
+  <defs>
+    <style>
+      .letter-m { 
+        fill: #4a90e2; 
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+      }
+    </style>
+  </defs>
+  
+  
+  <text text-anchor="middle" y="24" x="16" class="letter-m">m</text>
+</svg>
