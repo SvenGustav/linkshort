@@ -2,11 +2,11 @@
   "name": "url-shortener",
   "version": "1.0.0",
   "description": "A simple URL shortener application built with Node.js and TypeScript.",
-  "main": "src/app.ts",
+   "main": "dist/app.js",
   "scripts": {
-    "start": "ts-node src/app.ts",
-    "build": "tsc",
-    "dev": "ts-node-dev src/app.ts"
+  "start": "node dist/app.js",
+  "build": "tsc",
+  "dev": "ts-node-dev src/app.ts"
   },
   "dependencies": {
     "@types/cors": "^2.8.13",
