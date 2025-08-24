@@ -18,6 +18,18 @@ export function setRoutes(app: any) {
         res.sendFile(path.resolve(__dirname, '../public/index.html'));
     });
 
+    // Sitemap route
+    app.get('/sitemap.xml', (req: Request, res: Response) => {
+        res.set('Content-Type', 'text/xml');
+        res.sendFile(path.resolve(__dirname, '../public/sitemap.xml'));
+    });
+
+    // Robots.txt route
+    app.get('/robots.txt', (req: Request, res: Response) => {
+        res.set('Content-Type', 'text/plain');
+        res.sendFile(path.resolve(__dirname, '../public/robots.txt'));
+    });
+
     // Stats page route - serve the HTML file
     app.get('/stats/:shortUrl', (req: Request, res: Response) => {
         console.log('Serving stats.html for shortUrl:', req.params.shortUrl);

@@ -187,3 +187,13 @@ footer .back-link:hover {
     text-align: center;
     margin-bottom: 1rem;
 }
+
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-link:hover .logo {
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
